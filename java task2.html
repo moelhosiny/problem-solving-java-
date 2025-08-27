@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //////first task//////
+        let x = [4 , 6 ,-7, 1 ];
+        let new_array =[];
+        x.forEach((el) => {
+            new_array.push(-el);
+        });
+        console.log(new_array);
+        ///////////////////////
+        //////seccc///////
+        function revers_e(string){
+          return string.split(" ").reverse().join(" ");
+        }
+        console.log(revers_e("mohamed zayed"));
+        //////////////////////////////
+        //////3//////////
+          function bol(bool){
+           if(bool == true){
+              return "yes";
+            }
+            else{
+               return  "no";
+           }
+          }console.log(bol("yes"));
+          ///////4//////
+          function litres(time) {
+            return Math.floor(time / 2) ;
+          }
+          console.log(litres(9))
+          /////////////////5///////
+          function numberTostring(num){
+            return num.toString();
+          }
+          console.log( typeof numberTostring(469))
+    </script>
+</body>
+</html>
